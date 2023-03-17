@@ -1,0 +1,440 @@
+html {
+    height: 100%;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor
+{
+    border-right: 1px solid black;
+    background:white;
+    width:100%;
+    
+    margin:auto;
+    /* Flexbox */
+    display:flex;
+    flex-flow:row wrap;
+}
+body
+{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid black;
+    
+    margin: 0%;
+    padding: 0%;
+    max-height: 100%;
+}
+
+
+header
+{
+    border-top: 10px solid black;
+    border-right: 2px solid black;
+    position:absolute;
+    width: 100%;
+    background: #fbbc02;
+    padding: 30px;
+
+    /* Flexbox */
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row ;
+    /*transitions*/
+    font-size: 4px;
+    transition-property: font-size;
+    transition: 4s ease-in-out 0s;
+}
+
+
+
+header .logo{
+    background-color:transparent;
+    
+    
+}
+
+header .logo img
+{
+    position: relative;
+    bottom: 10px;
+    width: 160px;   
+    float: left;
+}
+header .btn-uno{
+ 
+   position: relative;
+    left: 860px;
+    bottom:15px;
+    /* Flexbox */
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;}
+header .btn-dos-tres {
+    
+    /* Flexbox */
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    
+    margin-left: auto;
+    position: relative;
+    right: 10px;
+    bottom: 3px;
+
+}
+header .btn-uno a {
+    background: #fbbc02;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-decoration:none; 
+    padding:10px;
+    
+    /* Flexbox */
+    flex-grow: 1;
+
+}
+header .btn-dos-tres a {
+    background: #fbbc02;
+    color: black;
+    text-align: center;
+    text-decoration:none; 
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+
+    /* Flexbox */
+    flex-grow:1;
+   position: relative;
+   top: 30px;
+   left: 100px;
+    }
+    header nav .btn2{
+        position: relative;
+        left: 165px
+    }
+    header nav .btn3{
+        position: relative;
+        left: 199px;
+        bottom: 1px;    
+
+    }
+
+    header nav a:hover {
+    background:  #fbbc02;
+    font-size: 16px;
+    }
+    header .icon{
+        position: relative;
+        color:black;
+        font-size: small;
+    }
+    .fa-hand-holding-dollar{
+        position: relative;
+        right: 146px;
+        font-size: 20px;
+        bottom: 7px;
+    }
+    .fa-arrow-right-to-bracket{
+        position: relative;
+        right: 10px;
+        left: 118px;
+        top:40px; 
+        font-size: 20px;
+    }
+    .fa-address-card{
+        position: relative;
+        right: 40px;
+        top: 40px;   
+        font-size: 20px;
+        
+    }
+    .btn4{
+    background-color: aqua;
+    position: relative;
+    top: 40px;
+    right: 1000px;
+    background: #fbbc02;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-decoration:none;
+
+    }
+/*FIN DE HEAD*/    
+
+/*Comienzo del banner*/
+.banner{
+    margin-top: 116px;
+}
+
+/*FIN DE BANNER*/
+
+/*COMIENZO DE Main*/
+main{
+
+margin-top: 0px;
+
+
+}
+.parrafo, .parrafo2{
+    position: relative;
+    padding: 15px 10px;
+    font-family: Arial, Helvetica, sans-serif   ;
+    left:350px;
+    font-size: 1px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+}
+.padre {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center; 
+}
+
+.productos{
+    flex: 1;
+    height: 500%;
+    margin: 10px;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    }
+
+.foto1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.compra{
+    width: 70px;
+    height: 30px;
+    background-color: #3483fa;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s ease-in;
+    position: relative;
+    left: 25%;
+}
+
+.detalle{
+    display: flex;
+justify-content: space- space-around;
+align-items: center;
+transform: translate(1%, 10%);
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+}
+/*Segunda parte main*/
+.padre2{
+    display: flex;
+    width:fit-content;
+    margin: 0 auto;
+    
+    text-align:left; 
+}
+.productos2{
+    flex: 1;
+    height: 500%;
+    margin: 10px;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+}
+.samsung-destacado{
+    width: 300px;
+    height: 300px;
+
+}
+
+.tv-destacado{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.parrafo3{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translate(-125%, 510px);
+    font-size: 17px;
+}
+
+.parrafo4{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(24%, 510px);
+    font-size: 17px;
+
+}
+
+
+.img-form{
+    height: 40px;
+    width: 160px;
+    margin: 15px;
+    position: relative;
+    left: 150px;
+}
+.register{
+    position: relative;
+    right: 180px
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+   }
+   .sub{
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(74, 0, 143);
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+  margin-left: 28px;
+    position: relative;
+    top: 10px;
+
+}
+.btn.btn-danger {
+    color: #fff;
+    background-color: red;
+    border-color: black;
+    margin-bottom: 2px;
+   position: relative;
+   left: 60px;
+}
+form{
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.ingresa-form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+
+.ingresa-form:hover{
+font-size: 18px;
+}
+label{
+    font-size: 20px;
+   
+}
+
+.main-modal{
+    position: relative;
+    left: 30px;
+    border: solid black 2px;
+    width:250px
+}
+
+input {
+width: 100px;
+height: 20px;
+position: relative;
+bottom: 5px;
+}
+
+.body-form{
+height: 300px;
+width: 500px;
+background-color: #fbbc02;
+}
+.close{
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    background-color: red;
+}
+.modal-header{
+    background-color:white
+}
+.flexFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bxl-facebook-square {
+    color: #3b5998;
+}
+
+.bxl-instagram-alt {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.bxl-linkedin-square {
+    color: #0e76a8;
+}
+
+.bxl-youtube {
+    color: red;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: black;
+}
+
+.lineaVerticalIzq {
+    border-left: 1px solid black;
+    height: 100%;
+    left: 50%;
+}
+
+.lineaVerticalDer {
+    border-right: 1px solid black;
+    height: 100%;
+    right: 50%;
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
